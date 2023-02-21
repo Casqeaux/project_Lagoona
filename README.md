@@ -1,2 +1,2 @@
 # project_Lagoona
-Вёрстка сайта по макету - Lagoona
+Site layout according to the layout - Lagoona
