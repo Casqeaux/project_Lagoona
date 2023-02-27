@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.header__title {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  height: 155px;
+}
+
+.header__top {
+  margin-top: 30px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.header__bottom {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+/* Section Offers */
+
+.section__heading {
+  margin: 0 0 20px 0
+}
+
+.section__offers-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__offers-left-wrap,
+.section__offers-right-wrap {
+  width: 50%;
+  min-height: 540px;
+}
+
+.special-article {
+  border: 3px solid red;
+  border-radius: 15px;
+  min-height: 258px;
+  margin: 0 24px 24px 0;
+}
+
+.special-article-big {
+  border: 3px solid red;
+  border-radius: 15px;
+  min-height: 540px;
+  margin: 0 24px 24px 0;
+}
+
+.section__offers-wrap {
+  padding: 0 0 0 45px
+}
+
+.section__offers-heading {
+  max-width: 420px;
+  padding: 40px 0 15px 0;
+  font-size: 40px;
+  margin: 0;
+}
+
+.section__offers-price {
+  display: block;
+  font-size: 20px;
+  padding: 0 0 47px 0;
+}
+
+/* Section About  */
+
+.section__about-heading {
+  padding: 0;
+}
+
+/* Section Advantages */
+
+.section__services-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.section__services-link {
+  display: block;
+}
+
+.section__services-list {
+  max-width: 573px;
+}
+
+.section__services-text {
+  font-size: 16px;
+}
+
+.section__services-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+/* Section Advantages */
+
+.section__advantages-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section__advantages-list {
+  max-width: 276px;
+  max-height: 276px;
+}
+
+.section__advantages-item {
+  display: block;
+ }
+
+ /* Section Accommodation */
+
+.section__accommodation-article {
+  margin-bottom: 24px;
+}
+
+ .section__accommodation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+.section__accommodation-item, .section__accommodation-item-last {
+  width: 374px;
+}
