@@ -133,7 +133,7 @@ h2 {
 }
 
 .header__ico {
-	color: #F0BF5F;
+  color: #F0BF5F;
   transition: 1s;
 }
 
@@ -175,7 +175,7 @@ h2 {
 
 .nav__btn:hover {
   border: 1px solid #CC9933;
-	background-color: #CC9933;
+  background-color: #CC9933;
   color: #fff;
   transition: 0.6s;
 }
@@ -197,19 +197,18 @@ h2 {
 .special-article {
   max-width: 573px;
   max-height: 258px;
-	border-radius: 15px;
+  border-radius: 15px;
   height: 258px;
   max-width: 573px;
 }
 
 .second {
-	margin: 0 0 24px 0;
+  margin: 0 0 24px 0;
 }
 
 .special-article-big {
   border-radius: 15px;
   min-height: 540px;
-
 }
 
 
@@ -227,13 +226,13 @@ h2 {
 }
 
 .section__offers-wrap-big {
-	height: 100%;
-	padding: 212px 249px 40px 45px;
+  height: 100%;
+  padding: 212px 249px 40px 45px;
 }
 
 
 .section__heading {
-  padding: 0 0 20px 0;
+  padding: 0;
 }
 
 .section__offers-left-wrap {
@@ -242,7 +241,7 @@ h2 {
 }
 
 .section__offers-right-wrap {
-	width: 49%;
+  width: 49%;
 }
 
 .section__offers-heading {
@@ -294,20 +293,23 @@ h2 {
 }
 
 .section__about-content {
-	max-width: 888px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 32px;
-	margin: 0 0 70px 0;
+  max-width: 888px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0 0 70px 0;
 }
 
-/* Section Advantages */
+/* Section Services */
+
+.section__services {
+  margin: 0 0 70px 0;
+}
 
 .section__services-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .section__services-link {
@@ -315,16 +317,40 @@ h2 {
 }
 
 .section__services-list {
-  max-width: 573px;
+  width: 49%;
+}
+
+.section__services-list:nth-child(-n+2) {
+  width: 49%;
+  margin: 0 0 24px 0
 }
 
 .section__services-item {
-	background-color: #fff;
-	border-radius: 15px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.section__services-content {
+  padding: 26px 126px 35px 45px;
+}
+
+.section__services-link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  color: #CC9933
 }
 
 .section__services-text {
   font-size: 16px;
+  line-height: 32px;
+
+}
+
+.section__services-ico {
+  margin: 0 0 0 5px
 }
 
 .section__services-item:not(:last-child) {
@@ -333,22 +359,55 @@ h2 {
 
 /* Section Advantages */
 
+.section__advantages {
+  margin: 0 0 70px 0;
+}
+
 .section__advantages-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.section__advantages-list {
-  max-width: 276px;
-  max-height: 276px;
+.section__advantages-list:nth-child(-n+2) {
+  margin-bottom: 25px;
 }
 
 .section__advantages-item {
-  display: block;
+  padding: 98px 42px 32px 45px;
+  background-position: 20% 20%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 275px;
+  max-height: 275px;
+}
+
+.section__advantages-text {
+  font-size: 16px;
+  line-height: 32px;
 }
 
 /* Section Accommodation */
+
+.section__accommodation-article {
+  background-color: #fff;
+  border-radius: 15px;
+  max-height: 440px;
+}
+
+.section__accommodation-article-last {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  max-height: 440px;
+
+}
+
+
+.section__accommodation-wrap {
+  padding: 32px 45px 45px 45px;
+}
 
 .section__accommodation-article {
   margin-bottom: 24px;
@@ -364,3 +423,91 @@ h2 {
 .section__accommodation-item-last {
   width: 374px;
 }
+
+.section__accommodation-price {
+  display: inline-block;
+  padding: 0 36px 16px 0;
+}
+
+
+.section__accommodation-stars {
+  display: inline-block;
+}
+
+.section__accommodation-text {
+  margin-right: 4px;
+  font-size: 16px;
+}
+
+.section__accommodation-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 16px 0;
+}
+
+.section__accommodation-descr {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  padding: 0 0 20px 0;
+}
+
+.section__accommodation-strong {
+  margin-right: 4px;
+  font-size: 20px; 
+  line-height: 1;
+  font-weight: 700;
+}
+
+.section__accommodation-btn {
+  padding: 13px 20px;
+  cursor: pointer;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #CC9933;
+}
+
+.section__accommodation-btn:hover {
+  border: 1px solid #CC9933;
+  background-color: #CC9933;
+  color: #fff;
+  transition: 0.6s;
+}
+
+.section__accommodation-item-last {
+  display: flex;
+ 
+
+}
+
+.section__accommodation-item-last {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 55px 55px;
+    background-image: url("../img/hotel_9.png");
+    background-repeat: no-repeat;
+}
+
+.section__accommodation-item__link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section__accommodation-item__link:hover {
+  color: #CC9933;
+  transition: 0.6s;
+}
+
+.section__accommodation-item-last-ico {
+  margin: 0 0 0 4px;
+  }
+
+
