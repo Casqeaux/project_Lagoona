@@ -525,6 +525,9 @@ h2 {
 }
 
 .need-tour__heading {
+  font-family: "Muller", sans-serif;
+  margin: 0 0 20px 0;
+  font-weight: 400;
   padding: 0;
   font-size: 40px;
   line-height: 40px;
@@ -580,4 +583,105 @@ h2 {
   border-radius: 10px;
   background-color: transparent;
   color: #CC9933;
+}
+
+.form__btn:hover {
+  border: 1px solid #CC9933;
+  background-color: #CC9933;
+  color: #fff;
+  transition: 0.6s;
+}
+
+/* Section contacts */
+
+.contacts-container {
+  padding-bottom: 40px;
+}
+
+.contacts__heading {
+  font-family: "Muller", sans-serif;
+  margin: 0 0 20px 40px;
+  font-weight: 400;
+  padding: 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.contacts__content {
+  padding: 45px;
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url(../img/contacts_bg.png);
+  background-repeat: no-repeat;
+  background-position: 91% center;
+}
+
+.contacts__title {
+  font-family: "Muller", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contacts__list {
+  max-width: 375px;
+  margin-bottom: 30px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 24px;
+  padding: 25px 0 23px 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.contacts__wrap-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts__wrap {
+  display: inline-block;
+  max-width: 229px;
+  text-align: start;
+}
+
+.contacts__description {
+  font-size: 16px;
+  color: #999999
+}
+
+.contacts__link {
+  display: inline-block;
+  color: #CC9933;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.7s;
+
+}
+
+.contacts__link:hover {
+  color: #000;
+  transition: 0.7s;
+}
+
+.contacts__address {
+  margin: 0;
+}
+
+.contacts__btn {
+  font-size: 16px;
+  padding: 25px 30px;
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.contacts__btn:hover {
+  border: 1px solid #CC9933;
+  background-color: #CC9933;
+  color: #fff;
+  transition: 0.6s;
 }
