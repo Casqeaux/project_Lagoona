@@ -390,6 +390,10 @@ h2 {
 
 /* Section Accommodation */
 
+.section__accommodation {
+  padding-bottom: 65px;
+}
+
 .section__accommodation-article {
   background-color: #fff;
   border-radius: 15px;
@@ -401,9 +405,7 @@ h2 {
   display: flex;
   align-items: flex-end;
   max-height: 440px;
-
 }
-
 
 .section__accommodation-wrap {
   padding: 32px 45px 45px 45px;
@@ -456,7 +458,7 @@ h2 {
 
 .section__accommodation-strong {
   margin-right: 4px;
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 1;
   font-weight: 700;
 }
@@ -479,17 +481,15 @@ h2 {
 
 .section__accommodation-item-last {
   display: flex;
- 
-
 }
 
 .section__accommodation-item-last {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 55px 55px;
-    background-image: url("../img/hotel_9.png");
-    background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 55px 55px;
+  background-image: url("../img/hotel_9.png");
+  background-repeat: no-repeat;
 }
 
 .section__accommodation-item__link {
@@ -508,6 +508,76 @@ h2 {
 
 .section__accommodation-item-last-ico {
   margin: 0 0 0 4px;
-  }
+}
 
 
+/* Need tour */
+
+.section__need-tour {
+  padding-bottom: 70px;
+}
+
+.need-tour__wrap {
+  background: #E9E9E9;
+  padding: 45px 45px 45px 40px;
+  height: 265px;
+  border-radius: 15px;
+}
+
+.need-tour__heading {
+  padding: 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.need-tour__form {
+  padding: 31px 25px;
+  display: flex;
+  background-color: #fff;
+  height: 106px;
+  border-radius: 15px;
+}
+
+.form__label {
+  display: flex;
+  font-size: 12px ;
+  line-height: 12px;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.form__label:not(:first-child) {
+  padding-left: 15px;
+  border-left: 1px solid #e1e1e1
+}
+
+.form__label:nth-child(5) {
+  margin-right: 55px;
+}
+
+.form__input,
+.form__input::placeholder {
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  
+}
+.form__input {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.form__select {
+  padding: 2px;
+  margin-top: 15px;
+  font-size: 16px ;
+  border: none;
+}
+
+.form__btn {
+  padding: 13px 30px;
+  cursor: pointer;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #CC9933;
+}
