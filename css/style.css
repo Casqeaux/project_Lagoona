@@ -543,7 +543,7 @@ h2 {
 
 .form__label {
   display: flex;
-  font-size: 12px ;
+  font-size: 12px;
   line-height: 12px;
   flex-direction: column;
   margin-right: 15px;
@@ -563,8 +563,9 @@ h2 {
   margin-top: 15px;
   font-size: 16px;
   border: none;
-  
+
 }
+
 .form__input {
   border-bottom: 1px solid #e1e1e1;
 }
@@ -572,7 +573,7 @@ h2 {
 .form__select {
   padding: 2px;
   margin-top: 15px;
-  font-size: 16px ;
+  font-size: 16px;
   border: none;
 }
 
@@ -658,7 +659,6 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   transition: 0.7s;
-
 }
 
 .contacts__link:hover {
@@ -684,4 +684,94 @@ h2 {
   background-color: #CC9933;
   color: #fff;
   transition: 0.6s;
+}
+
+/* Section Footer */
+
+.footer-container {
+  margin-bottom: 20px;
+}
+
+.footer-wrap {
+  display: flex;
+  min-height: 341px;
+  padding: 45px;
+  background-color: #333333;
+  border-radius: 15px;
+  color: #fff;
+  background-image: url(../img/sun_logo.svg);
+  background-repeat: no-repeat;
+  background-position: 81% bottom;
+}
+
+.footer__copyright {
+  max-width: 320px;
+  margin-right: 125px;
+}
+
+.footer__copyright-text {
+  margin: 0 0 37px 0;
+  font-family: "Muller", sans-serif;
+  font-size: 16px;
+  line-height: 30.4px;
+}
+
+.footer__copyright-link {
+  padding-top: 3px;
+  font-family: "Muller", sans-serif;
+  font-size: 16px;
+  color: #CC9933;
+  transition: 0.7s;
+}
+
+.footer__copyright-link:hover {
+  color: #F0BF5F;
+  transition: 0.7s;
+}
+
+.footer__adress {
+  min-width: 359px;
+  margin-right: 269px;
+}
+
+.footer__adress-text {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer__link {
+  display: block;
+  font-family: "Muller", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #CC9933;
+  transition: 0.7s;
+}
+
+.footer__link:hover {
+  color: #F0BF5F;
+  transition: 0.7s;
+}
+
+.phone-link:not(:first-child) {
+  margin: 0 0 15px 0;
+}
+
+.footer_image {
+  min-width: 255px;
+}
+
+.footer__social {
+  min-width: 45px;
+}
+
+.footer__soc_link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__soc_link:hover {
+  transition: opacity .3s ease-in-out;
+  opacity: 0.5;
 }
